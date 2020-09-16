@@ -12,7 +12,7 @@ print(f' {header1: >{place_width}} {header2: >{place_width}} {header3: >{place_w
 for num in numbers:
     print(f' {num: >{place_width}} {num ** 2: >{place_width}} {num**3: >{place_width}} ')
 
-# Code that use this formula to calculate and print the Fahrenheit temperature 
+# Code that use the formula to calculate and print the Fahrenheit temperature 
 celsius_value = [-40, 0, 40, 100]
 f = 0
 
